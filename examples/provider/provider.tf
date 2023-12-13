@@ -1,3 +1,3 @@
-provider "scaffolding" {
-  # example configuration here
+provider "nats" {
+  url = "http://locahost:4222"
 }
