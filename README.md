@@ -51,7 +51,7 @@ NOT REGISTERED YET TO REGISTRY.
 
 You can use it locally by:
 1. Creating the file `~/.terraformrc` and adding the below to it.
-```
+```terraform
 provider_installation {
 
   dev_overrides {
@@ -65,7 +65,7 @@ provider_installation {
 }
 ```
 2. Adding the below to your terraform project.
-```
+```terraform
 terraform {
     required_providers {
         nats = {
